@@ -1,6 +1,8 @@
 #include "Allocator.h"
 #include <iostream>
 
+// Memory Management Project
+
 const int POOL_SIZE = 1000;//0000; // should be even
 const int MIN_ALLOC = sizeof(void*)* 2;
 const size_t headerSize = sizeof(size_t);
